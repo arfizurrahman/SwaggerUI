@@ -10,8 +10,6 @@ C:\Projects\Asp.net Core\SwaggerUI2\SwaggerUI\SwaggerUI\bin\Debug\netcoreapp3.1\
 C:\Projects\Asp.net Core\SwaggerUI2\SwaggerUI\SwaggerUI\obj\Debug\netcoreapp3.1\SwaggerUI.csprojAssemblyReference.cache
 C:\Projects\Asp.net Core\SwaggerUI2\SwaggerUI\SwaggerUI\obj\Debug\netcoreapp3.1\SwaggerUI.AssemblyInfoInputs.cache
 C:\Projects\Asp.net Core\SwaggerUI2\SwaggerUI\SwaggerUI\obj\Debug\netcoreapp3.1\SwaggerUI.AssemblyInfo.cs
-C:\Projects\Asp.net Core\SwaggerUI2\SwaggerUI\SwaggerUI\obj\Debug\netcoreapp3.1\SwaggerUI.csproj.CoreCompileInputs.cache
-C:\Projects\Asp.net Core\SwaggerUI2\SwaggerUI\SwaggerUI\obj\Debug\netcoreapp3.1\SwaggerUI.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\Asp.net Core\SwaggerUI2\SwaggerUI\SwaggerUI\obj\Debug\netcoreapp3.1\SwaggerUI.RazorTargetAssemblyInfo.cache
 C:\Projects\Asp.net Core\SwaggerUI2\SwaggerUI\SwaggerUI\obj\Debug\netcoreapp3.1\staticwebassets\SwaggerUI.StaticWebAssets.Manifest.cache
 C:\Projects\Asp.net Core\SwaggerUI2\SwaggerUI\SwaggerUI\obj\Debug\netcoreapp3.1\staticwebassets\SwaggerUI.StaticWebAssets.xml
