@@ -12,6 +12,10 @@ namespace SwaggerUI.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
+        /// <summary>
+        /// Gets the list of all Employees.
+        /// </summary>
+        /// <returns>The list of Employees.</returns>
         // GET: api/Employee
         [HttpGet]
         public IEnumerable<Employee> Get()
@@ -24,8 +28,27 @@ namespace SwaggerUI.Controllers
         {
             return GetEmployees().Find(e => e.Id == id);
         }
-        // POST: api/Employee
+
+        /// <summary>
+        /// Creates an Employee.
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        /// 
+        ///     POST api/Employee
+        ///     {        
+        ///       "firstName": "Mike",
+        ///       "lastName": "Andrew",
+        ///       "emailId": "Mike.Andrew@gmail.com"        
+        ///     }
+        /// </remarks>
+        /// <param name="employee"></param>     
+        /// <returns>A newly created employee</returns>
+        /// <response code="201">Returns the newly created item</response>
+        /// <response code="400">If the item is null</response>          
         [HttpPost]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
         [Produces("application/json")]
         public Employee Post([FromBody] Employee employee)
         {
